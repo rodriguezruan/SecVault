@@ -44,7 +44,14 @@ public class Menu {
     }
 
     private void buscar() {
-
+        System.out.println("Insira o nome do serviço desejado:");
+        String servicoDesejado = entrada.nextLine();
+        for (Credential credenciai : credenciais) {
+            String serv = credenciai.getService();
+            if (serv.toLowerCase().contains(servicoDesejado.toLowerCase())){
+                System.out.println(credenciai);
+            }
+        }
     }
 
 }
