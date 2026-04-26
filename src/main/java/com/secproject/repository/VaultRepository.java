@@ -1,4 +1,4 @@
-package com.secproject;
+package com.secproject.repository;
 
 import com.google.gson.Gson;
 
@@ -7,6 +7,8 @@ import java.nio.file.Path;
 import java.util.List;
 import java.lang.reflect.Type;
 import com.google.gson.reflect.TypeToken;
+import com.secproject.crypto.CryptoService;
+import com.secproject.model.Credential;
 
 public class VaultRepository {
     private String filePath;

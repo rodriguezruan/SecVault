@@ -1,4 +1,4 @@
-package com.secproject;
+package com.secproject.crypto;
 
 import javax.crypto.SecretKey;
 import java.security.SecureRandom;

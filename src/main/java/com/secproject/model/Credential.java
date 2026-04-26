@@ -1,4 +1,4 @@
-package com.secproject;
+package com.secproject.model;
 
 public class Credential {
     private String service;

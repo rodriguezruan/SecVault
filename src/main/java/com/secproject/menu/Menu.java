@@ -1,4 +1,7 @@
-package com.secproject;
+package com.secproject.menu;
+
+import com.secproject.model.Credential;
+import com.secproject.repository.VaultRepository;
 
 import java.util.ArrayList;
 import java.util.List;
